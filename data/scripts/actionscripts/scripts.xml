@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<actionscripts>
+	<action itemid="1234" type="file" name="test.lua"/>
+</actionscripts>

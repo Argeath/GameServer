@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1250" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-05-05T18:15:12</date>
+  <millis>1399306512954</millis>
+  <sequence>0</sequence>
+  <logger>Server.Main</logger>
+  <level>SEVERE</level>
+  <class>Server.Config</class>
+  <method>load</method>
+  <thread>1</thread>
+  <message>java.io.FileNotFoundException: C:\Users\amino_000\Documents\NetBeansProjects\Server\dist\config.ini (The system cannot find the file specified)</message>
+  <exception>
+    <message>java.io.FileNotFoundException: C:\Users\amino_000\Documents\NetBeansProjects\Server\dist\config.ini (The system cannot find the file specified)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.file.FileURLConnection</class>
+      <method>connect</method>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.file.FileURLConnection</class>
+      <method>getInputStream</method>
+    </frame>
+    <frame>
+      <class>java.net.URL</class>
+      <method>openStream</method>
+    </frame>
+    <frame>
+      <class>org.ini4j.spi.IniSource</class>
+      <method>&lt;init&gt;</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.spi.AbstractParser</class>
+      <method>newIniSource</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.spi.IniParser</class>
+      <method>parse</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.Ini</class>
+      <method>load</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.Ini</class>
+      <method>load</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.Ini</class>
+      <method>load</method>
+      <line>99</line>
+    </frame>
+    <frame>
+      <class>org.ini4j.Wini</class>
+      <method>&lt;init&gt;</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>Server.Config</class>
+      <method>load</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>Server.Main</class>
+      <method>main</method>
+      <line>37</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2014-05-05T18:15:13</date>
+  <millis>1399306513558</millis>
+  <sequence>1</sequence>
+  <logger>Server.Main</logger>
+  <level>SEVERE</level>
+  <class>Server.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.sql.SQLException: No suitable driver found for nullnull</message>
+  <exception>
+    <message>java.sql.SQLException: No suitable driver found for nullnull</message>
+    <frame>
+      <class>java.sql.DriverManager</class>
+      <method>getConnection</method>
+    </frame>
+    <frame>
+      <class>java.sql.DriverManager</class>
+      <method>getConnection</method>
+    </frame>
+    <frame>
+      <class>Server.Main</class>
+      <method>main</method>
+      <line>41</line>
+    </frame>
+  </exception>
+</record>
+</log>
